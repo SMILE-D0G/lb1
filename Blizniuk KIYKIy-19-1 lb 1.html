@@ -1,0 +1,175 @@
+<html>
+ <head>
+  <title>Лб1</title>
+  <link href="styles.css" type="text/css" rel="stylesheet">
+ <style type="text/css"> 
+	.form_radio {
+	margin-bottom: 10px;
+	font-style: normal;
+}
+	.form_radio input[type=radio] {
+		display: none;
+}
+	.form_radio label {
+		display: inline-block;
+		cursor: pointer;
+		position: relative;
+		padding-left: 25px;
+		margin-right: 0;
+		line-height: 18px;
+		user-select: none;
+}
+	.form_radio label:before {
+		content: "";
+		display: inline-block;
+		width: 17px;
+		height: 18px;
+		position: absolute;
+		left: 0;
+		bottom: 1px;
+		background: url(rb1.png) 0 0 no-repeat;
+}
+	.form_radio input[type=radio]:checked + label:before {
+		background: url(rb2.png) 0 0 no-repeat;
+}
+	.form_radio label:hover:before {
+		filter: brightness(400%);
+}
+</style>
+ </head>
+ <body>
+  <h2>Навигация</h2>
+  <ol>
+  <li><a href="#text">Текст</a></li>
+  <li><a href="#list">Список</a></li>
+  <li><a href="#table">Таблица</a></li>
+  <li><a href="#form">Форма</a></li>
+  </ol>
+  <a name="text"></a><big><p>Для любого натурального числа <b>n>2</b> уравнение <i>a<sup>n</sup>+b<sup>n</sup>=c<sup>n</sup></i>
+  <b>не имеет решений</b> при целых ненулевых числах a, b, c.</p></big>
+  <a name="list"></a><h1>ХНУРЭ</h1>
+  <ol>
+    <li>
+      Факультет компьютерных наук
+      <ol>
+        <li>Кафедра информационных управляющих систем (ИУС)</li>
+        <li>Кафедра искусственного интеллекта (ИИ)</li>    
+		<li>Кафедра системотехники (СТ)</li>
+		<li>Кафедра программной инженерии (ПИ)</li>
+		<li>Кафедра медиасистем и технологий (МСТ)</li>
+      </ol>
+    </li>
+    <li>
+      Факультет компьютерной инженерии и управления
+      <ol>
+        <li>Кафедра Компьютерных интеллектуальных технологий и систем (КИТС)</li>
+        <li>Кафедра Электронных вычислительных машин (ЭВМ)</li>  
+		<li>Кафедра безопасности информационных технологий (БИТ)</li>
+		<li>Кафедра автоматизации проектирования вычислительной техники</li>
+		<li>Кафедра философии</li>
+		<li>Кафедра украиноведения (Укр)</li>
+      </ol>
+    </li>
+	<li>
+      Факультет автоматики и компьютеризированных технологий
+      <ol>
+        <li>Кафедра компьютерно-интегрированных технологий, автоматизации и мехатроники (КИТАМ)</li>
+        <li>Кафедра проектирования и эксплуатации электронных аппаратов (ПЭЭА)</li>
+        <li>Кафедра физики</li>
+		<li>Кафедра охраны труда (ОТ)</li>
+      </ol>
+    </li>
+	<li>
+      Факультет инофрмационно-аналитических технологий и менеджмента
+      <ol>
+        <li>Кафедра информатики (ИНФ)</li>
+        <li>Кафедра прикладной математики (ПМ)</li>
+        <li>Кафедра высшей математики (ВМ)</li>
+		<li>Кафедра экономической кибернетики и управления экономической безопасностью (ЭК)</li>
+		<li>Кафедра социальной информатики</li>
+		<li>Кафедра естественных наук (ЕсН)</li>
+      </ol>
+    </li>
+	<li>
+      Факультет инфокоммуникаций
+      <ol>
+        <li>Кафедра инфокоммуникационной инженерии им. В.В. Поповского (ИКИ)</li>
+        <li>Кафедра Информационно-сетевой инженерии (ИСИ)</li>
+        <li>Кафедра метрологии и технической экспертизы (МТЭ)</li>
+		<li>Кафедра языковой подготовки (ЯзП)</li>
+      </ol>
+    </li>
+	<li>
+      Факультет электронной и биомедицинской инженерии
+      <ol>
+        <li>Кафедра биомедицинской инженерии (БМИ)</li>
+        <li>Кафедра микроэлектроники, электронных приборов и устройств (МЭЭПУ)</li>  
+		<li>Кафедра физических основ электронной техники (ФОЭТ)</li>  
+		<li>Кафедра физического воспитания и спорта (ФВС)</li>  
+      </ol>
+    </li>
+	<li>
+      Факультет информационных радиотехнологий и технической защиты информации
+      <ol>
+        <li>Кафедра микропроцессорных технологий и систем (МТС)</li>
+        <li>Кафедра компьютерной радиоинженерии и систем технической защиты информации (КРИСТЗИ)</li>  
+		<li>Кафедра радиотехнологий информационно-коммуникационных систем (РТИКС)</li>  
+		<li>Кафедра медиаинженерии и информационных радиоэлектронных систем (МИРЭС)</li>  
+		<li>Кафедра иностранных языков (ИнЯз)</li>  
+      </ol>
+    </li>
+  </ol>
+  <a name="table"></a><table align=center border=1 border-color=black>
+  <tr>
+    <td width=105>Буквенный код валюты</td>
+	<td width=160>Название валюты</td>
+	<td width=115>Курс гривны к единице валюты</td>
+  </tr>
+  <tr>
+    <td>AUD</td>
+	<td>Австралийский доллар</td>
+	<td>20,3741</td>
+  </tr>
+  <tr>
+    <td>USD</td>
+	<td>Доллар США</td>
+	<td>28,1158</td>
+  </tr>
+  <tr>
+    <td>EUR</td>
+	<td>Евро</td>
+	<td>33,2118</td>
+  </tr>
+  <tr>
+    <td>CHF</td>
+	<td>Швейцарский франк</td>
+	<td>30,7461</td>
+  </tr>
+  <tr>
+    <td>NOK</td>
+	<td>Норвежская крона</td>
+	<td>3,0696</td>
+  </tr>
+</table>
+<a name="form"></a><form>
+  <p><b>Как по вашему мнению расшифровывается аббревиатура &quot;HTML&quot;?</b></p>
+  
+  <div class="form_radio">
+	<input id="radio-1" type="radio" name="radio" value="1" checked>
+	<label for="radio-1">How to make latte</label>
+</div>
+ 
+<div class="form_radio">
+	<input id="radio-2" type="radio" name="radio" value="2">
+	<label for="radio-2">Hypertext markup language</label>
+</div>
+ 
+<div class="form_radio">
+	<input id="radio-3" type="radio" name="radio" value="3">
+	<label for="radio-3">Hat that make coffee</label>
+</div>
+   
+  <p><input type="submit"></p>
+</form>
+ </body>
+</html>
